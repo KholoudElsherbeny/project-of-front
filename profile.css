@@ -1,0 +1,1557 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* star navbar*/
+.nav2{
+    width: 100%;
+    height: 50px;
+    background-color:#02182b;
+}
+.nav2 input[type=text]{
+    position: relative;
+    left: 280px;
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(144, 165, 235) ;
+}
+
+ /* star btns */
+ .nav2 .btns{
+    margin-left: 850px;
+    position: relative;
+    bottom: 10px;
+ }
+ .nav2 .btns i{
+    position: relative;
+    bottom: 25px;
+    font-size: 30px;
+    color: #888;
+ }
+.nav2 .btns .b1{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 43px;
+    border: none;
+}/* end btns */
+.btns i:hover{
+    color:red;
+}
+.nav2 #p1{
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     position: relative;
+     bottom: 80px;
+     left: 1350px;  
+}
+ /* end por */
+ .sel #selectt{
+    font-size: 25px;
+    position: relative;
+    left: 1420px;
+    bottom: 120px;
+    color: #888;
+} 
+.sel .seifs {
+    width: 200px;
+    height: 150px;
+    background-color: #02182b;
+    position: relative;
+    bottom: 100px;
+    left: 1290px;
+    display: none;
+}
+.sel .seifs .seif1 i{
+    font-size: 28px;
+    color: red;
+    position: relative;
+    left: 50px;
+   padding: 15px 0;
+}
+.sel .seifs .seif1 a{
+    text-decoration: none; 
+    color: #fff;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    font-size: 20px;
+}
+.sel .seifs .seif1 a:hover{
+    color: #d41c1c;
+}
+/* str content */
+/* star friend */
+.friends{
+    width: 340px;
+    height: 500px;
+    background-color: #02182b;
+    position: relative;
+    position: relative;
+    left: 800px;
+    bottom:100px;
+    overflow: scroll;
+    display: none;
+}
+.friends h1{
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    top: 3px;
+    color: #fff;
+}
+.divs{
+    position: relative;
+    top: 3px;
+}
+/* str div 1 */
+.divs .div1{
+    background-color: #396186;
+    width: 88%;
+    height: 140px;
+    margin: auto;
+    margin-top: 5px;
+}
+.divs .div1 #p2{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 15px;
+    top: 13px;
+}
+.divs .div1 a{
+    color: blue;
+    text-decoration: none;
+    position: relative;
+    left: 17px;
+}
+.div1 a:hover{
+    color:#127fe6 ;
+}
+.divs .div1 p{
+    color: #fff;
+    position: relative;
+    left: 210px;
+    bottom: 45px;
+    font-size: 15px;
+}
+.divs .div1 h6{
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    left: 29%;
+    bottom: 50px;
+}
+.divs .div1 button{
+    width: 70px;
+    height: 40px;
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    color: #fff;
+    background-color: red;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.divs .div1 button:hover{
+    background-color:rgb(199, 49, 49);
+}
+.divs .div1 .b2{
+    width: 100px;
+}/* end friends */
+/* str Mesage */
+.Message{
+    width: 350px;
+    height: 380px;
+    background-color: #02182b;
+    position: relative;
+    left: 800px;
+    bottom:100px;
+    display: none;
+}
+.Message  h1{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.Message .dins{
+    margin-top: 15px;
+}
+.Message .din1{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+}
+.din1 #p3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.din1 h3{
+    position: relative;
+    bottom: 55px;
+    left: 25%;
+    color: #fff;
+    font-size: 20px;
+}
+.din1 p{
+    position: relative;
+    left: 25%;
+    bottom: 55px;
+    font-size: 14px;
+    color:#888;
+}
+.din1 h6{
+    position: relative;
+    left: 85%;
+    bottom: 90px;
+    color: #888;
+}
+.Message  .dins .din1:hover{
+    background-color: #396186;
+}
+/* end Mesage */
+/* str notification */ 
+.Notifi{
+    width: 310px;
+    height: 449px;
+    background-color: #02182b;
+    position: relative;
+    left: 800px;
+    bottom:100px;
+    overflow: scroll;
+    display: none;
+}
+.Notifi h2{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+.notifis{
+    margin-top: 20px;
+}
+.Notifi .Notifi1{
+    width: 96%;
+    height: 80px;
+    margin: auto;
+}
+.Notifi1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.Notifi1 p{
+    color: #888;
+    font-size: 15px;
+    position: relative;
+    left: 65px;
+    bottom: 35px;
+}
+.Notifi1 h6{
+    color: #888;
+    font-size: 15px;
+    position: relative;
+    left: 65px;
+    bottom:  48px;
+}
+.Notifi1 h5{
+    color: blue;
+    position: relative;
+    left: 65px;
+    bottom: 49px;
+    font-size: 12px;
+}
+.Notifi1 button{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: blue;
+    position: relative;
+    left: 260px;
+    bottom: 80px;
+}
+.Notifi .notifis  .Notifi1:hover{
+    background-color: #396186;
+}
+/* str head */
+.head{
+    width: 100%;
+    height: 550px;
+}
+.head1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+}
+#but{
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    left: 1080px;
+    bottom: 170px;
+}
+#but:hover{
+    background-color: red;
+}
+
+/* str navbar */
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color:#fff;
+    position: relative;
+    bottom: 155px;
+    z-index: -1;
+}
+.navbar h2{
+    color: red;
+    position: absolute;
+    left: 190px;
+    bottom: 23px;
+}
+.navbar h6{
+    color:black;
+    display: inline;
+    font-size: 15px;
+    position: absolute;
+    left: 200px;
+    bottom: 10px;
+}
+.navbar ul{
+    list-style: none;
+   position: relative;
+   left: 800px;
+   top: 10px;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li{
+    font-size: 18px;
+    padding: 0 20px;
+}
+.navbar ul li a{
+    color:black;
+}
+.navbar ul li a:hover{
+    background-color: #d41c1c;
+}
+/* str info */
+.info{
+    width: 280px;
+    height: 720px;
+    background-color: #fff;
+    position: relative;
+    bottom: 120px;
+    border-radius: 20px;
+}
+.info h1{
+    color: #888;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.info i{
+    font-size: 35px;
+    color: red;
+    position: relative;
+    left:10px;
+    bottom:10px;
+}
+.info h5{
+    color: #999;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    bottom:40px;
+}
+.info h6{
+    color: #999;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    bottom:50px;
+}
+.info a{
+    color: #999;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    left: 45px;
+    bottom:40px;
+}
+.info a:hover{
+    color:red;
+}
+/* str photo */
+.min{
+    width: 280px;
+    height: 250px;
+    background-color:#fff;
+    border-radius: 20px;
+    position: relative;
+    bottom:80px;
+    left: 20px;
+}
+.min h2{
+    color: #888;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.photes{
+    position: relative;
+    left: 5px;
+    bottom:10px;
+}
+.photo1{
+    display: inline;
+}
+.min .photo1 img, .photo2 img{
+    width: 120px;
+    height: 90px;
+    transition: .4s;
+    overflow: hidden;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.min .photo1 img:hover, .photo2 img:hover{
+          transform: scale(1.1);
+          opacity: .7;
+}
+.min .photo1{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.min .photo2{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.min div{
+    overflow: hidden;
+}
+.relation .sugesst{
+    width: 280px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    bottom:1060px;
+    left: 1160px;
+}
+.sugesst .sugesthead h4{
+    font-size: 20px;
+    color: #888;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    display: inline;
+}
+.sugesst .sugesthead i{
+   font-size: 20px;
+   color: #888;
+   margin-left: 150px;
+   position: relative;
+   top: 10px;
+}
+.sugesst .sugestbody1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.sugesst .sugestbody1 a{
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+}
+.sugesst .sugestbody1 p{
+    color: #888;
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    display: inline;
+}
+.sugesst .sugestbody1 i{
+    font-size: 30px;
+    color: #888;
+    position: relative;
+    left: 180px;
+    bottom:50px;
+}
+.sugesst .sugestbody1 i:hover{
+    color: red;
+}
+.min2{
+    width: 280px;
+    height: 250px;
+    background-color:#fff;
+    border-radius: 20px;
+    position: relative;
+    bottom:1090px;
+    left: 1160px;
+}
+.min2 i{
+    font-size: 35px;
+    color: #d41c1c;
+    position:relative;
+    left: 20px;
+    top: 10px;
+}
+.min2 h2{
+    color: #888;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+.photes2{
+    position: relative;
+    left: 5px;
+    bottom:35px;
+}
+.photo3{
+    display: inline;
+}
+.min2 .photo3 img, .photo4 img{
+    width: 120px;
+    height: 90px;
+    transition: .4s;
+    overflow: hidden;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.min2 .photo3 img:hover, .photo4 img:hover{
+          transform: scale(1.1);
+          opacity: .7;
+}
+.min2 .photo3{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.min2 .photo4{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.min2 div{
+    overflow: hidden;
+}
+/* str post */
+.post{
+    width: 780px;
+    height: 300px;
+    background-color: #fff;
+    position: relative;
+    left: 340px;
+    bottom: 1720px;
+    border-radius: 20px;
+} 
+.post img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.post input[type=text]{
+    width: 640px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+    background-color: #888;
+    border: none;
+}
+.post p{
+    position: relative;
+    left: 185px;
+    bottom: 80px;
+}
+.post button{
+    width: 250px;
+    height: 60px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    font-size: 22px;
+    border-radius: 8px;
+    cursor: point;
+    display: block;
+    margin: auto;
+}
+.post  button:hover{
+    background-color: rgb(233, 81, 81);
+}
+.post i{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    padding: 0 55px;
+    font-size: 50px;
+    text-decoration: none;
+}
+.post i:hover{
+    color:red;
+}
+.post a{
+    text-decoration: none;
+    color: #888;
+}
+.post a:hover{
+    color: #3f3d3e;
+}
+/* str post 2 */
+.post2{
+    width:780px;
+}
+.postprofile2{
+    height:530px;
+    position:relative;
+    left: 340px;
+    bottom: 1700px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.postprofile2 .po2head img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.postprofile2 .po2head a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.postprofile2 .po2head a:hover{
+    color: red;
+}
+.postprofile2 .po2head p{
+    color: #888;
+    font-size: 18px;
+    display: inline;
+}
+.postprofile2 .po2head .time{
+    display: inline;
+    color: #888;
+    font-size: 18px;
+    margin-left: 350px;
+}
+.postprofile2 .po2body img{
+    width: 780px;
+    height:340px;
+    position: relative;
+    top: 20px;
+} 
+.postprofile2 .po2body button{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    position: relative;
+    bottom: 250px;
+    left: 300px;
+}
+.postprofile2 .po2body .imagee{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 250px;
+    right: 15px;
+}
+.postprofile2 .po2end .LoveIcon1 i{
+      font-size: 25px;
+      color: #888;
+      display: inline;
+      position:relative;
+      bottom: 180px;
+      left: 10px;
+}
+.postprofile2 .po2end .LoveIcon1 p{
+    font-size: 18px;
+    color: #888;
+    display: inline;
+    position:relative;
+    bottom: 183px;
+    left: 10px;
+}
+.postprofile2 .po2end .CommentIcon1 i{
+    font-size: 25px;
+    color: #888;
+    display: inline;
+    position:relative;
+    bottom: 210px;
+    left: 130px;
+}
+.postprofile2 .po2end .CommentIcon1 p{
+  font-size: 18px;
+  color: #888;
+  display: inline;
+  position:relative;
+  bottom: 213px;
+  left: 130px;
+}
+.postprofile2 .po2end .ShareIcon1 i{
+    font-size: 25px;
+    color: #888;
+    display: inline;
+    position:relative;
+    bottom: 240px;
+    left:630px;
+}
+.postprofile2 .po2end .ShareIcon1 p{
+  font-size: 18px;
+  color: #888;
+  display: inline;
+  position:relative;
+  bottom: 243px;
+  left: 630px;
+}
+.postprofile2 #pictuerComment{
+    width: 780px;
+    height: 350px;
+    background-color: #fff;
+    position: relative;
+    bottom: 230px;
+    display: none;
+}
+.firstreply1 a{
+    position: relative;
+    left: 10px;
+}
+.firstreply1 .firstrel1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.firstreply1 .firstrel1 a{
+    color: #888;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    right: 5px;
+    bottom: 10px;
+}
+.firstreply1 .firstrel1 a:hover{
+    color: red;
+}
+.firstreply1 .firstrel1 p{
+    color: black;
+    position: relative;
+    left:100px;
+    bottom: 30px;
+}
+.firstreply1 .loveInComment i{
+    display: inline;
+    font-size: 20px;
+    color: #888;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+.firstreply1 .loveInComment p{
+    display: inline;
+    color: #888;
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+.firstreply1 .loveInComment h6{
+    color: #888;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+}
+.firstreply1 .firstrel2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom:60px;
+    left: 15px;
+}
+.firstreply1 .firstrel2 a{
+    color: #888;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    bottom: 70px;
+}
+.firstreply1 .firstrel2 a:hover{
+    color: red;
+}
+.firstreply1 .firstrel2 p{
+    color: black;
+    position: relative;
+    bottom: 90px;
+    left:100px;
+}
+.firstreply1 .loveInComment2 i{
+    display: inline;
+    font-size: 20px;
+    color: #888;
+   position: relative;
+    left: 130px;
+    bottom: 100px;
+}
+.firstreply1 .loveInComment2 p{
+    display: inline;
+    color: #888;
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 100px;
+}
+.firstreply1 .loveInComment2 h6{
+    color: #888;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    bottom: 130px;
+}
+.firstreply1 .MyComment img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 130px;
+    left: 10px;
+}
+.firstreply1 .MyComment input[type=text]{
+    width: 420px;
+    height:40px;
+    background-color: #888;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+.firstreply1 .MyComment button{
+    width: 120px;
+    height:40px;
+    border: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+/* str post 3 */
+.post3{
+    width:780px;
+}
+.postprofile3{
+    height:230px;
+    position:relative;
+    left: 340px;
+    bottom: 1640px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.postprofile3 .po3head img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.postprofile3 .po3head a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.postprofile3 .po3head a:hover{
+    color: red;
+}
+.postprofile3 .po3head p{
+    color: #888;
+    font-size: 18px;
+    display: inline;
+}
+.postprofile3 .po3head .time{
+    display: inline;
+    color: #888;
+    font-size: 18px;
+    margin-left: 350px;
+}
+.postprofile3 .po3body p{
+    font-size: 20px;
+    color: black;
+}
+.postprofile3 .po3end .LoveIcon2 i{
+      font-size: 25px;
+      color: #888;
+      display: inline;
+      position:relative;
+      left: 10px;
+}
+.postprofile3 .po3end .LoveIcon2 p{
+    font-size: 18px;
+    color: #888;
+    display: inline;
+    position:relative;
+    left: 10px;
+}
+.postprofile3 .po3end .CommentIcon2 i{
+    font-size: 25px;
+    color: #888;
+    display: inline;
+    position:relative;
+    bottom: 30px;
+    left: 130px;
+}
+.postprofile3 .po3end .CommentIcon2 p{
+  font-size: 18px;
+  color: #888;
+  display: inline;
+  position:relative;
+  bottom: 30px;
+  left: 130px;
+}
+.postprofile3 .po3end .ShareIcon2 i{
+    font-size: 25px;
+    color: #888;
+    display: inline;
+    position:relative;
+    bottom: 50px;
+    left:630px;
+}
+.postprofile3 .po3end .ShareIcon2 p{
+  font-size: 18px;
+  color: #888;
+  display: inline;
+  position:relative;
+  bottom: 50px;
+  left: 630px;
+}
+.postprofile3 #postComment{
+    width: 780px;
+    height: 350px;
+    background-color: #fff;
+    position: relative;
+    bottom:30px;
+    display: none;
+}
+.Secondreply2 a{
+    position: relative;
+    left: 10px;
+}
+.Secondreply2 .Secondrel1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.Secondreply2 .Secondrel1 a{
+    color: #888;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    right: 5px;
+    bottom: 10px;
+}
+.Secondreply2 .Secondrel1 a:hover{
+    color: red;
+}
+.Secondreply2 .Secondrel1 p{
+    color: black;
+    position: relative;
+    left:100px;
+    bottom: 30px;
+}
+.Secondreply2 .loveInComment2 i{
+    display: inline;
+    font-size: 20px;
+    color: #888;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+.Secondreply2 .loveInComment2 p{
+    display: inline;
+    color: #888;
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+.Secondreply2 .loveInComment2 h6{
+    color: #888;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+}
+.Secondreply2 .Secondtrel2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom:60px;
+    left: 15px;
+}
+.Secondreply2 .Secondtrel2 a{
+    color: #888;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    bottom: 70px;
+}
+.Secondreply2 .Secondtrel2 a:hover{
+    color: red;
+}
+.Secondreply2 .Secondtrel2 p{
+    color: black;
+    position: relative;
+    bottom: 90px;
+    left:100px;
+}
+.Secondreply2 .loveInComment3 i{
+    display: inline;
+    font-size: 20px;
+    color: #888;
+   position: relative;
+    left: 130px;
+    bottom: 100px;
+}
+.Secondreply2 .loveInComment3 p{
+    display: inline;
+    color: #888;
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 100px;
+}
+.Secondreply2 .loveInComment3 h6{
+    color: #888;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    bottom: 130px;
+}
+.Secondreply2 .MyComment2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 130px;
+    left: 10px;
+}
+.Secondreply2 .MyComment2 input[type=text]{
+    width: 420px;
+    height:40px;
+    background-color: #888;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+.Secondreply2 .MyComment2 button{
+    width: 120px;
+    height:40px;
+    border: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+/* str post 4 */
+.post4{
+    width: 780px;
+}
+.postprofile4{
+    height:230px;
+    position:relative;
+    left: 340px;
+    bottom: 1580px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.postprofile4 .po4head img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.postprofile4 .po4head a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.postprofile4 .po4head a:hover{
+    color: red;
+}
+.postprofile4 .po4head p{
+    color: #888;
+    font-size: 18px;
+    display: inline;
+}
+.postprofile4 .po4head .time{
+    display: inline;
+    color: #888;
+    font-size: 18px;
+    margin-left: 350px;
+}
+.postprofile4 .po4body p{
+    font-size: 20px;
+    color: black;
+}
+.postprofile4 .po4end .LoveIcon3 i{
+      font-size: 25px;
+      color: #888;
+      display: inline;
+      position:relative;
+      left: 10px;
+}
+.postprofile4 .po4end .LoveIcon3 p{
+    font-size: 18px;
+    color: #888;
+    display: inline;
+    position:relative;
+    left: 10px;
+}
+.postprofile4 .po4end .CommentIcon3 i{
+    font-size: 25px;
+    color: #888;
+    display: inline;
+    position:relative;
+    bottom: 30px;
+    left: 130px;
+}
+.postprofile4 .po4end .CommentIcon3 p{
+  font-size: 18px;
+  color: #888;
+  display: inline;
+  position:relative;
+  bottom: 30px;
+  left: 130px;
+}
+.postprofile4 .po4end .ShareIcon3 i{
+    font-size: 25px;
+    color: #888;
+    display: inline;
+    position:relative;
+    bottom: 50px;
+    left:630px;
+}
+.postprofile4 .po4end .ShareIcon3 p{
+  font-size: 18px;
+  color: #888;
+  display: inline;
+  position:relative;
+  bottom: 50px;
+  left: 630px;
+}
+.postprofile4 #postComment2{
+    width: 780px;
+    height: 350px;
+    background-color: #fff;
+    position: relative;
+    bottom:40px;
+    display: none;
+}
+.Threereply3 a{
+    position: relative;
+    left: 10px;
+}
+.Threereply3 .Threerel1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.Threereply3 .Threerel1 a{
+    color: #888;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    right: 5px;
+    bottom: 10px;
+}
+.Threereply3 .Threerel1 a:hover{
+    color: red;
+}
+.Threereply3 .Threerel1 p{
+    color: black;
+    position: relative;
+    left:100px;
+    bottom: 30px;
+}
+.Threereply3 .loveInComment2 i{
+    display: inline;
+    font-size: 20px;
+    color: #888;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+.Threereply3 .loveInComment2 p{
+    display: inline;
+    color: #888;
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+.Threereply3 .loveInComment2 h6{
+    color: #888;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+}
+.Threereply3 .Threetrel2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom:60px;
+    left: 15px;
+}
+.Threereply3 .Threetrel2 a{
+    color: #888;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    bottom: 70px;
+}
+.Threereply3 .Threetrel2 a:hover{
+    color: red;
+}
+.Threereply3 .Threetrel2 p{
+    color: black;
+    position: relative;
+    bottom: 90px;
+    left:100px;
+}
+.Threereply3 .loveInComment3 i{
+    display: inline;
+    font-size: 20px;
+    color: #888;
+   position: relative;
+    left: 130px;
+    bottom: 100px;
+}
+.Threereply3 .loveInComment3 p{
+    display: inline;
+    color: #888;
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 100px;
+}
+.Threereply3 .loveInComment3 h6{
+    color: #888;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    bottom: 130px;
+}
+.Threereply3 .MyComment3 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 130px;
+    left: 10px;
+}
+.Threereply3 .MyComment3 input[type=text]{
+    width: 420px;
+    height:40px;
+    background-color: #888;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+.Threereply3 .MyComment3 button{
+    width: 120px;
+    height:40px;
+    border: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+/* str post 5 */
+.post5{
+    width:780px;
+}
+.postprofile5{
+    height:450px;
+    position:relative;
+    left: 340px;
+    bottom: 1510px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.postprofile5 .po5head img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.postprofile5 .po5head a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.postprofile5 .po5head a:hover{
+    color: red;
+}
+.postprofile5 .po5head p{
+    color: #888;
+    font-size: 18px;
+    display: inline;
+}
+.postprofile5 .po5head .time{
+    display: inline;
+    color: #888;
+    font-size: 18px;
+    margin-left: 350px;
+}
+.postprofile5 .po5end .LoveIcon4 i{
+      font-size: 25px;
+      color: #888;
+      display: inline;
+      position:relative;
+      left: 10px;
+}
+.postprofile5 .po5end .LoveIcon4 p{
+    font-size: 18px;
+    color: #888;
+    display: inline;
+    position:relative;
+    left: 10px;
+}
+.postprofile5 .po5end .CommentIcon4 i{
+    font-size: 25px;
+    color: #888;
+    display: inline;
+    position:relative;
+    bottom: 30px;
+    left: 130px;
+}
+.postprofile5 .po5end .CommentIcon4 p{
+  font-size: 18px;
+  color: #888;
+  display: inline;
+  position:relative;
+  bottom: 30px;
+  left: 130px;
+}
+.postprofile5 .po5end .ShareIcon4 i{
+    font-size: 25px;
+    color: #888;
+    display: inline;
+    position:relative;
+    bottom: 50px;
+    left:630px;
+}
+.postprofile5 .po5end .ShareIcon4 p{
+  font-size: 18px;
+  color: #888;
+  display: inline;
+  position:relative;
+  bottom: 50px;
+  left: 630px;
+}
+.postprofile5 #VedioComment{
+    width: 780px;
+    height: 350px;
+    background-color: #fff;
+    position: relative;
+    bottom: 70px;
+    display: none;
+}
+.Fourreply4 a{
+    position: relative;
+    left: 10px;
+}
+.Fourreply4 .Fourrel1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.Fourreply4 .Fourrel1 a{
+    color: #888;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    right: 5px;
+    bottom: 10px;
+}
+.Fourreply4 .Fourrel1 a:hover{
+    color: red;
+}
+.Fourreply4 .Fourrel1 p{
+    color: black;
+    position: relative;
+    left:100px;
+    bottom: 30px;
+}
+.Fourreply4 .loveInComment2 i{
+    display: inline;
+    font-size: 20px;
+    color: #888;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+.Fourreply4 .loveInComment2 p{
+    display: inline;
+    color: #888;
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+.Fourreply4 .loveInComment2 h6{
+    color: #888;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    bottom: 70px;
+}
+.Fourreply4 .Fourrel2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom:60px;
+    left: 15px;
+}
+.Fourreply4 .Fourrel2  a{
+    color: #888;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    bottom: 70px;
+}
+.Fourreply4 .Fourrel2  a:hover{
+    color: red;
+}
+.Fourreply4 .Fourrel2  p{
+    color: black;
+    position: relative;
+    bottom: 90px;
+    left:100px;
+}
+.Fourreply4 .loveInComment3 i{
+    display: inline;
+    font-size: 20px;
+    color: #888;
+   position: relative;
+    left: 130px;
+    bottom: 100px;
+}
+.Fourreply4 .loveInComment3 p{
+    display: inline;
+    color: #888;
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    bottom: 100px;
+}
+.Fourreply4 .loveInComment3 h6{
+    color: #888;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    bottom: 130px;
+}
+.Fourreply4 .MyComment4 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 130px;
+    left: 10px;
+}
+.Fourreply4 .MyComment4 input[type=text]{
+    width: 420px;
+    height:40px;
+    background-color: #888;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+.Fourreply4 .MyComment4 button{
+    width: 120px;
+    height:40px;
+    border: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+.ShowContent{
+   display: block;
+}

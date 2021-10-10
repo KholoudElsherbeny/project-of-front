@@ -1,0 +1,362 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../images/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    font-size: 100px;
+    color: red;
+    text-align: center;
+    text-shadow: white 10px 10px 10px;
+    position: relative;
+    margin-top: 130px;
+}
+.banner .welcomeButton{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0,0,0,.7);
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    left: 48%;
+    top: 20px;
+    transition: all .8s ease-in-out;
+}
+.banner .welcomeButton i{
+    font-size: 80px;
+    color: #ffffff;
+    text-align: center;
+    margin-top:30px;
+    margin-left: 40px;
+    transition: all .8s ease-in-out;
+}
+.welcomeButton:hover{
+    transform: rotatez(180deg);
+}
+ i:hover{
+    transform: rotatex(180deg);
+}
+@keyframes welcomeButton{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: .99;
+    }
+}
+@keyframes  welcomeButton{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+.banner .open-btn{
+    width: 150px;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    left: 600px;
+    top: 100px;
+}
+.banner .open2-btn{
+    width: 150px;
+    height: 35px;
+    background-color:red;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    left: 620px;
+    top: 100px;
+}
+.overLay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 85%;
+    display: none;
+    z-index: -1;
+}
+.open-lay{
+    display: block;
+    z-index: 1;
+}
+.model-content{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-50% , -50%);
+    border: white solid;
+    color: #fff;
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    background-color: black;
+}
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+input[type=text],input[type=password]{
+    display: inline;
+    position: relative;
+    top: 20px;
+}
+.div1 .lock1{
+     width: 55px;
+     height: 55px;
+     border-radius: 50%;
+     position: relative;
+     background-color:red;
+     bottom: 25px;
+     left: 25px;
+}
+.div1 .lock1 i{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.div2 .lock2{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color:red;
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+}
+.div2 .lock2 i{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.close-btn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 60px;
+    width: 80px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 10px;
+}
+.close-btn:hover{
+    background-color:red;
+    color:#fff;
+}
+a{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.clo-btn{
+    position: absolute;
+    top: -8%;
+    left: 95%;
+    padding: 4px 8px;
+    border: none;
+    background-color:red;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 50%;
+   cursor: pointer;
+}
+.overLay2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 85%;
+    display: none;
+    z-index: -1;
+}
+.open2-lay{
+    display: block;
+    z-index: 1;
+}
+.model-content2{
+    position: absolute;
+    top: 75%;
+    left: 63%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+    display: block;
+    color: #fff;
+    width: 38%;
+    height: 70%;
+    text-align: center;
+    background-color: #fff;
+}
+.overLay2 .model-content2 h4{
+    color:red;
+    font-size: 35px;
+    position: relative;
+    right: 140px;
+    top: 20px;
+}
+.overLay2 .model-content2 p{
+    color: #888;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    right: 130px;
+}
+.div3{
+    width: 90%;
+    height: 3px;
+    background-color: #000;
+    position: relative;
+    top: 33px;
+    left: 20px;
+}
+/*div4*/
+.div4{
+    position: relative;
+    top: 50px;
+    right: 150px;
+}
+.div4 h1{
+    font-size: 20px;
+    color: black;
+}
+.line1{
+    width: 85%;
+    height: 3px;
+    background-color:red;
+    position: relative;
+    top: 62px;
+    left: 25px;
+}
+.div4 h5{
+    font-size: 12px;
+    color: #888;
+    position: relative;
+    top: 10px;
+}
+/*   div5*/
+.div5{
+    position: relative;
+    top: 70px;
+    right: 160px;
+}
+.div5 h1{
+    font-size: 20px;
+    color: black;
+}
+.line2{
+    width: 85%;
+    height: 3px;
+    background-color:red;
+    position: relative;
+    top: 80px;
+    left: 25px;
+}
+.div5 h5{
+    font-size: 12px;
+    color: #888;
+    position: relative;
+    top: 10px;
+}
+/* div6*/
+.div6{
+    position: relative;
+    top: 95px;
+    right: 170px;
+}
+.div6 h1{
+    font-size: 20px;
+    color: black;
+}
+.line3{
+    width: 85%;
+    height: 3px;
+    background-color:red;
+    position: relative;
+    top: 110px;
+    left: 25px;
+}
+.div6 h5{
+    font-size: 12px;
+    color: #888;
+    position: relative;
+    top: 10px;
+}
+/* form */
+#gender{
+    position: relative;
+    top: 122px;
+    right: 95px;
+    color: black;
+    font-size: 22px;
+}
+label{
+    position: relative;
+    top: 122px;
+    right: 90px;
+    color: black;
+    font-size: 18px;
+}
+input[type=radio]{
+   position: relative;
+   top: 122px;
+   right: 90px;
+   color: black;
+}
+.country{
+    position: relative;
+    top: 140px;
+    right: 150px;
+    color: black;
+    font-size: 20px;
+}
+#select{
+    position: relative;
+    top: 120px;
+    left: 40px;
+    width: 60%;
+}
+.close2-btn{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    font-size: 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 60px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 135px;
+}
+.close2-btn:hover{
+    background-color:red;
+    color:#fff;
+}
+.clo2-btn{
+    position: absolute;
+    top: -4%;
+    left: 93%;
+    padding: 4px 8px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 50%;
+   cursor: pointer;
+}
